@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+h1,form{
+   display: flex;
+   justify-content: center;
+   font-family: Arial;
+   color: lightgray
+}
+button{
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: rgb(161, 161, 179);
+  padding: 5px;
+}
+p{
+   margin-left: 124px;
+   color: white;
+   font-family: Arial;
+}
+ul{
+   margin-left: 140px;
+   color: white;
+}
+button:hover{
+   background-color: rgb(201, 201, 227);
+}
+input{
+   padding: 5px;
+   width: 200px;
+   background-color: transparent;
+   color: white;
+   border: 1px solid white
+}
+input::placeholder{
+   color:rgb(78, 78, 81)
+}
