@@ -1,0 +1,101 @@
+p{
+    font-family: Arial;
+    font-size: 10px;
+    color: rgb(137, 126, 126)
+}
+body{
+    height: 1000px;
+}
+.container{
+    height: 485px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 3px;
+    padding: 18px;
+    box-shadow: 0px 0px 12px rgb(211, 198, 198);
+
+}
+input{
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 0.3px solid rgb(213, 208, 208);
+    border-radius: 4px;
+    font-family: Arial;
+}
+input::placeholder{
+    color: rgb(188, 185, 185);;
+}
+h3{
+    font-family: Arial;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    justify-content: center;   
+}
+.rad{
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    color:rgb(21, 130, 239);
+    font-size: 50px;
+}
+span{
+    color: blue;
+}
+span:hover{
+    text-decoration: underline;
+}
+.acc{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: rgb(28, 150, 43);
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 30px;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+.quick{
+    display: flex;
+    justify-content: center;
+    margin-top: -16px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    font-family: Arial;
+}
+.round{
+    margin-left: 30px;
+}
+
+.alr{
+    color: rgb(57, 129, 230);
+    font-size: 15px;
+}
+.gen{
+    border: 1px solid rgb(213, 208, 208);
+    border-radius: 3px;
+    padding: 4px;
+    color: black;
+    font-size: 15px;
+    width: 100px
+    
+}
